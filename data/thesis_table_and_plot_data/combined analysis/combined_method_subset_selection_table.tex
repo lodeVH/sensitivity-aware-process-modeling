@@ -1,0 +1,28 @@
+\begin{tabular}{rlr}
+\toprule
+Rank & Method & Typical relative error \\
+\midrule
+\multicolumn{3}{l}{\(\delta=0\): 2 retained} \\
+\multicolumn{3}{l}{Only Matern GP retained for \(\delta>0.041\) (factor 1.10)} \\
+\multicolumn{3}{l}{\textbf{retained at \(\delta=0\)}} \\
+1 & Matern GP & 0.066 \\
+2 & RBF GP & 0.12 \\
+\addlinespace[2pt]
+\multicolumn{3}{l}{\textbf{not retained at \(\delta=0\)}} \\
+3 & Average LSE + graph control & 0.14 \\
+4 & Linear residual DML + graph zero & 0.14 \\
+5 & Linear residual DML & 0.14 \\
+6 & LSTM sequence model & 0.22 \\
+7 & Linear state-space estimator & 0.27 \\
+8 & Expanded DML + graph zero & 0.28 \\
+9 & Average LSE + graph zero & 0.29 \\
+10 & Average LSE & 0.30 \\
+11 & Expanded DML & 0.36 \\
+12 & Expanded LSE + graph control & 0.36 \\
+13 & Expanded LSE + graph zero & 0.36 \\
+14 & Expanded LSE & 0.38 \\
+15 & Expanded DML + graph control & 0.39 \\
+16 & Linear residual DML + graph control & 0.53 \\
+17 & Neural ODE & 0.56 \\
+\bottomrule
+\end{tabular}

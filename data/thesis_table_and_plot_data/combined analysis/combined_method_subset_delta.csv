@@ -1,0 +1,2 @@
+best_method,retained_at_zero_delta,critical_delta,error_factor,bottleneck_method,bottleneck_eliminator
+Matern GP,2,0.04099169495266847,1.0989848232588786,RBF GP,Matern GP

@@ -1,0 +1,35 @@
+regime,rank,method,case_count,typical_error,retained
+zero,1,Average LSE + graph zero,15,0.10405208800319186,yes
+zero,2,Average LSE,15,0.10658215325191965,yes
+zero,3,Linear residual DML + graph zero,15,0.1526713572138169,no
+zero,4,Linear residual DML,15,0.15969338977790487,no
+zero,5,Average LSE + graph control,15,0.18292125856592464,no
+zero,6,Expanded LSE + graph control,15,0.20509814999178513,no
+zero,7,Expanded LSE + graph zero,15,0.20735919760957394,no
+zero,8,Expanded LSE,15,0.21483867145619426,no
+zero,9,Matern GP,15,0.2900329123938858,no
+zero,10,RBF GP,15,0.5637415681651302,no
+zero,11,LSTM sequence model,15,0.7517904302063328,no
+zero,12,Linear residual DML + graph control,15,1.838363000191684,no
+zero,13,Expanded DML + graph control,15,3.7337278668482763,no
+zero,14,Linear state-space estimator,15,11.106140807129332,no
+zero,15,Expanded DML + graph zero,15,17.21143177066374,no
+zero,16,Expanded DML,15,17.782301613141552,no
+zero,17,Neural ODE,15,20.0502375595291,no
+var,1,Average LSE + graph control,15,0.10453131803133334,yes
+var,2,Average LSE + graph zero,15,0.11743578066256313,yes
+var,3,Average LSE,15,0.12968281292874007,yes
+var,4,Linear state-space estimator,15,0.18520262427020043,yes
+var,5,Matern GP,15,0.2508682900251118,yes
+var,6,Expanded LSE + graph zero,15,0.29565099270723355,no
+var,7,Expanded LSE + graph control,15,0.2971878441273047,no
+var,8,Expanded LSE,15,0.3272119058438449,no
+var,9,LSTM sequence model,15,0.33127597378889084,no
+var,10,Linear residual DML + graph zero,15,0.4821748417159912,no
+var,11,Linear residual DML,15,0.5133961720372663,no
+var,12,Neural ODE,15,0.5517627507024614,no
+var,13,Expanded DML + graph zero,15,0.6205372761592458,no
+var,14,RBF GP,15,0.6378589292493883,yes
+var,15,Expanded DML,15,0.653791414610439,no
+var,16,Linear residual DML + graph control,15,1.7274282426306706,no
+var,17,Expanded DML + graph control,15,2.00424387920601,no

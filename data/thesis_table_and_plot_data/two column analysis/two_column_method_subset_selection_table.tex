@@ -1,0 +1,29 @@
+\begin{tabular}{rlr}
+\toprule
+Rank & Method & Typical error \\
+\midrule
+\multicolumn{3}{l}{\textbf{Varying-baseline}} \\
+\multicolumn{3}{l}{\(\delta=0\): 6 retained} \\
+\multicolumn{3}{l}{Only Linear residual DML retained for \(\delta>0.544\) (factor 3.50)} \\
+\multicolumn{3}{l}{\textbf{retained at \(\delta=0\)}} \\
+1 & Linear residual DML & 0.0038 \\
+2 & Linear residual DML + graph zero & 0.0038 \\
+3 & Linear state-space estimator & 0.0040 \\
+4 & Matern GP & 0.0059 \\
+7 & Neural ODE & 0.0092 \\
+10 & RBF GP & 0.017 \\
+\addlinespace[2pt]
+\multicolumn{3}{l}{\textbf{not retained at \(\delta=0\)}} \\
+5 & Expanded DML & 0.0081 \\
+6 & Expanded DML + graph zero & 0.0081 \\
+8 & LSTM sequence model & 0.012 \\
+9 & Average LSE + graph control & 0.013 \\
+11 & Linear residual DML + graph control & 0.075 \\
+12 & Expanded DML + graph control & 0.12 \\
+13 & Average LSE & 0.95 \\
+14 & Average LSE + graph zero & 0.95 \\
+15 & Expanded LSE + graph control & 1.03 \\
+16 & Expanded LSE & 1.03 \\
+17 & Expanded LSE + graph zero & 1.03 \\
+\bottomrule
+\end{tabular}

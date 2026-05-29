@@ -1,0 +1,18 @@
+regime,rank,method,case_count,typical_error,retained
+var,1,Linear residual DML,15,0.0037765828300966127,yes
+var,2,Linear residual DML + graph zero,15,0.0037765828300966127,yes
+var,3,Linear state-space estimator,15,0.004039249502227543,yes
+var,4,Matern GP,15,0.005863297388852475,yes
+var,5,Expanded DML,15,0.008108420984591504,no
+var,6,Expanded DML + graph zero,15,0.008108420984591504,no
+var,7,Neural ODE,15,0.009190879850870496,yes
+var,8,LSTM sequence model,15,0.011906384583929812,no
+var,9,Average LSE + graph control,15,0.013319651606252102,no
+var,10,RBF GP,15,0.01703454158027864,yes
+var,11,Linear residual DML + graph control,15,0.07475470905067137,no
+var,12,Expanded DML + graph control,15,0.11792479526562376,no
+var,13,Average LSE,15,0.9460259500696264,no
+var,14,Average LSE + graph zero,15,0.9460259500696264,no
+var,15,Expanded LSE + graph control,15,1.0336540626204624,no
+var,16,Expanded LSE,15,1.033654062620465,no
+var,17,Expanded LSE + graph zero,15,1.033654062620465,no

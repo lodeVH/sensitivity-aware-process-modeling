@@ -1,0 +1,2 @@
+regime,best_method,retained_at_zero_delta,critical_delta,error_factor,bottleneck_method,bottleneck_eliminator
+var,Linear residual DML,6,0.5442402429549202,3.5013880319508077,Linear state-space estimator,Linear residual DML

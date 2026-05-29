@@ -1,0 +1,23 @@
+\begin{tabular}{lrrrr}
+\toprule
+Method & Zero best & Zero worst & Var best & Var worst \\
+\midrule
+Average LSE & \tableheat{0.09 (N3 Hprbs)}{blue!21} & \tableheat{0.13 (N3 Hbrn)}{blue!17} & \tableheat{0.08 (N3 Hstep)}{blue!21} & \tableheat{0.17 (N1 Hbrn)}{blue!14} \\
+Average LSE + graph zero & \tableheat{0.08 (N3 Hprbs)}{blue!22} & \tableheat{0.13 (N3 Hbrn)}{blue!17} & \tableheat{0.07 (N3 Hstep)}{blue!23} & \tableheat{0.16 (N3 Hbrn)}{blue!15} \\
+Average LSE + graph control & \tableheat{0.11 (N3 Hdec)}{blue!18} & \tableheat{0.32 (N2 Hsin)}{blue!8} & \tableheat{0.07 (N3 Hstep)}{blue!23} & \tableheat{0.14 (N2 Hsin)}{blue!16} \\
+Expanded LSE & \tableheat{0.13 (N3 Hstep)}{blue!17} & \tableheat{0.40 (N1 Hbrn)}{red!6} & \tableheat{0.16 (N3 Hdec)}{blue!15} & \tableheat{0.68 (N2 Hsin)}{red!11} \\
+Expanded LSE + graph zero & \tableheat{0.13 (N3 Hstep)}{blue!17} & \tableheat{0.39 (N1 Hbrn)}{blue!6} & \tableheat{0.10 (N3 Hdec)}{blue!19} & \tableheat{0.68 (N2 Hsin)}{red!11} \\
+Expanded LSE + graph control & \tableheat{0.13 (N3 Hstep)}{blue!17} & \tableheat{0.39 (N1 Hbrn)}{blue!6} & \tableheat{0.11 (N3 Hdec)}{blue!18} & \tableheat{0.68 (N2 Hsin)}{red!11} \\
+Linear state-space estimator & \tableheat{0.31 (N1 Hbrn)}{blue!8} & \tableheat{127.0 (N3 Hdec)}{red!32} & \tableheat{0.01 (N2 Hbrn)}{blue!32} & \tableheat{0.84 (N3 Hdec)}{red!13} \\
+Neural ODE & \tableheat{1.65 (N1 Hbrn)}{red!20} & \tableheat{450.7 (N3 Hbrn)}{red!32} & \tableheat{0.07 (N1 Hbrn)}{blue!22} & \tableheat{3.30 (N3 Hstep)}{red!27} \\
+LSTM sequence model & \tableheat{0.44 (N1 Hstep)}{red!7} & \tableheat{1.13 (N3 Hbrn)}{red!16} & \tableheat{0.15 (N1 Hsin)}{blue!16} & \tableheat{0.88 (N3 Hbrn)}{red!14} \\
+Linear residual DML & \tableheat{0.10 (N1 Hbrn)}{blue!19} & \tableheat{0.27 (N3 Hprbs)}{blue!10} & \tableheat{0.26 (N2 Hsin)}{blue!10} & \tableheat{0.89 (N3 Hprbs)}{red!14} \\
+Linear residual DML + graph zero & \tableheat{0.10 (N1 Hbrn)}{blue!20} & \tableheat{0.23 (N3 Hstep)}{blue!11} & \tableheat{0.26 (N1 Hsin)}{blue!10} & \tableheat{0.79 (N3 Hprbs)}{red!13} \\
+Linear residual DML + graph control & \tableheat{1.34 (N1 Hbrn)}{red!18} & \tableheat{3.90 (N3 Hsin)}{red!29} & \tableheat{1.07 (N3 Hdec)}{red!16} & \tableheat{2.27 (N3 Hbrn)}{red!23} \\
+Expanded DML & \tableheat{5.68 (N1 Hbrn)}{red!32} & \tableheat{54.10 (N3 Hdec)}{red!32} & \tableheat{0.49 (N2 Hsin)}{red!8} & \tableheat{0.91 (N3 Hprbs)}{red!14} \\
+Expanded DML + graph zero & \tableheat{5.51 (N1 Hbrn)}{red!32} & \tableheat{52.78 (N3 Hdec)}{red!32} & \tableheat{0.47 (N1 Hsin)}{red!8} & \tableheat{0.85 (N3 Hprbs)}{red!14} \\
+Expanded DML + graph control & \tableheat{1.86 (N3 Hstep)}{red!21} & \tableheat{6.00 (N3 Hdec)}{red!32} & \tableheat{1.08 (N3 Hdec)}{red!16} & \tableheat{3.15 (N2 Hsin)}{red!26} \\
+RBF GP & \tableheat{0.25 (N1 Hbrn)}{blue!10} & \tableheat{1.44 (N3 Hdec)}{red!19} & \tableheat{0.02 (N2 Hsin)}{blue!32} & \tableheat{10.04 (N3 Hprbs)}{red!32} \\
+Matern GP & \tableheat{0.17 (N1 Hsin)}{blue!14} & \tableheat{0.85 (N3 Hprbs)}{red!14} & \tableheat{0.01 (N2 Hsin)}{blue!32} & \tableheat{1.31 (N2 Hstep)}{red!18} \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,35 @@
+regime,rank,method,case_count,typical_error,retained
+zero,1,RBF GP,15,0.14623298341496926,yes
+zero,2,Matern GP,15,0.2032267347588916,yes
+zero,3,Expanded DML + graph control,15,0.40958557485526953,no
+zero,4,Expanded DML + graph zero,15,0.41987401674736985,no
+zero,5,Expanded LSE + graph control,15,0.46733307182197953,no
+zero,6,Expanded LSE + graph zero,15,0.4687091339681081,no
+zero,7,Expanded LSE,15,0.4863104263257441,no
+zero,8,Average LSE + graph zero,15,0.4985567859310691,no
+zero,9,Average LSE,15,0.5072108941295129,no
+zero,10,Linear state-space estimator,15,0.5882557140877153,no
+zero,11,LSTM sequence model,15,0.6014365643379901,no
+zero,12,Linear residual DML + graph zero,15,0.6084986298704628,no
+zero,13,Average LSE + graph control,15,0.610038648462454,no
+zero,14,Linear residual DML,15,0.6134265520021762,no
+zero,15,Linear residual DML + graph control,15,0.613752091279408,no
+zero,16,Neural ODE,15,0.6408046930029498,no
+zero,17,Expanded DML,15,0.8062987853521443,no
+var,1,Matern GP,15,0.02894071413382247,yes
+var,2,RBF GP,15,0.050027088411106424,yes
+var,3,Expanded DML + graph control,15,0.05124122978747454,yes
+var,4,Expanded DML + graph zero,15,0.09072232135886851,yes
+var,5,Expanded DML,15,0.1464550437593624,no
+var,6,Expanded LSE + graph zero,15,0.41543962419934083,no
+var,7,Expanded LSE + graph control,15,0.4163183413655096,no
+var,8,Expanded LSE,15,0.4272693243336024,no
+var,9,Linear state-space estimator,15,0.5397569927684959,no
+var,10,Linear residual DML + graph zero,15,0.5697662655134746,no
+var,11,Linear residual DML + graph control,15,0.5792078388420488,no
+var,12,Linear residual DML,15,0.5793645568844723,no
+var,13,Average LSE + graph control,15,0.5794478827796882,no
+var,14,LSTM sequence model,15,0.5941546369471715,no
+var,15,Average LSE + graph zero,15,0.6729870991247937,no
+var,16,Average LSE,15,0.7515406053876432,no
+var,17,Neural ODE,15,1.6084000650978425,no

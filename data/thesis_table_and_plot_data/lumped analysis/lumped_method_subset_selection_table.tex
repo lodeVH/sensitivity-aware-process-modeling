@@ -1,0 +1,53 @@
+\begin{tabular}{rlr}
+\toprule
+Rank & Method & Typical error \\
+\midrule
+\multicolumn{3}{l}{\textbf{Return-to-baseline}} \\
+\multicolumn{3}{l}{\(\delta=0\): 2 retained} \\
+\multicolumn{3}{l}{Only Average LSE + graph zero retained for \(\delta>0.057\) (factor 1.14)} \\
+\multicolumn{3}{l}{\textbf{retained at \(\delta=0\)}} \\
+1 & Average LSE + graph zero & 0.10 \\
+2 & Average LSE & 0.11 \\
+\addlinespace[2pt]
+\multicolumn{3}{l}{\textbf{not retained at \(\delta=0\)}} \\
+3 & Linear residual DML + graph zero & 0.15 \\
+4 & Linear residual DML & 0.16 \\
+5 & Average LSE + graph control & 0.18 \\
+6 & Expanded LSE + graph control & 0.21 \\
+7 & Expanded LSE + graph zero & 0.21 \\
+8 & Expanded LSE & 0.21 \\
+9 & Matern GP & 0.29 \\
+10 & RBF GP & 0.56 \\
+11 & LSTM sequence model & 0.75 \\
+12 & Linear residual DML + graph control & 1.84 \\
+13 & Expanded DML + graph control & 3.73 \\
+14 & Linear state-space estimator & 11.11 \\
+15 & Expanded DML + graph zero & 17.21 \\
+16 & Expanded DML & 17.78 \\
+17 & Neural ODE & 20.05 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Varying-baseline}} \\
+\multicolumn{3}{l}{\(\delta=0\): 6 retained} \\
+\multicolumn{3}{l}{Only Average LSE + graph control retained for \(\delta>0.333\) (factor 2.15)} \\
+\multicolumn{3}{l}{\textbf{retained at \(\delta=0\)}} \\
+1 & Average LSE + graph control & 0.10 \\
+2 & Average LSE + graph zero & 0.12 \\
+3 & Average LSE & 0.13 \\
+4 & Linear state-space estimator & 0.19 \\
+5 & Matern GP & 0.25 \\
+14 & RBF GP & 0.64 \\
+\addlinespace[2pt]
+\multicolumn{3}{l}{\textbf{not retained at \(\delta=0\)}} \\
+6 & Expanded LSE + graph zero & 0.30 \\
+7 & Expanded LSE + graph control & 0.30 \\
+8 & Expanded LSE & 0.33 \\
+9 & LSTM sequence model & 0.33 \\
+10 & Linear residual DML + graph zero & 0.48 \\
+11 & Linear residual DML & 0.51 \\
+12 & Neural ODE & 0.55 \\
+13 & Expanded DML + graph zero & 0.62 \\
+15 & Expanded DML & 0.65 \\
+16 & Linear residual DML + graph control & 1.73 \\
+17 & Expanded DML + graph control & 2.00 \\
+\bottomrule
+\end{tabular}

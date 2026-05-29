@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.pdf
+*.zip
+
+# Python environments
+.venv/
+venv/
+env/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+
+# Local run outputs
+results/
+_batch_runs/
+_backups/
+docs/
+presentation/
+workflow_method_sets.json
+data/done_data/
+data/standardized_results_windows/
+data/standardized_results_linux/
+logs/
+backup/
+backups/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

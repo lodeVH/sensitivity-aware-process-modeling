@@ -1,0 +1,18 @@
+workflow_method_id,summary_method,summary_variant,thesis_name
+state_space,state_space,ridge_delta_state,Linear state-space estimator
+neural_ode,neural_ode,steady_state_jacobian,Neural ODE
+lstm,lstm,rollout_fd,LSTM
+gp_rbf,gp_rbf,rbf,RBF GP
+gp_matern,gp_matern,matern,Matern GP
+dml_linear_pure,dml_linear,pure,Linear residual DML
+dml_linear_graph_zero,dml_linear,graph_zero,Linear residual DML + graph zero
+dml_linear_graph_control,dml_linear,graph_control,Linear residual DML + graph control
+dml_basis_pure,dml_basis,pure,Expanded DML
+dml_basis_graph_zero,dml_basis,graph_zero,Expanded DML + graph zero
+dml_basis_graph_control,dml_basis,graph_control,Expanded DML + graph control
+lsr_linear_pure,lsr_linear,pure,Average LSE
+lsr_linear_graph_zero,lsr_linear,graph_zero,Average LSE + graph zero
+lsr_linear_graph_control,lsr_linear,graph_control,Average LSE + graph control
+lsr_basis_pure,lsr_basis,pure,Expanded LSE
+lsr_basis_graph_zero,lsr_basis,graph_zero,Expanded LSE + graph zero
+lsr_basis_graph_control,lsr_basis,graph_control,Expanded LSE + graph control
